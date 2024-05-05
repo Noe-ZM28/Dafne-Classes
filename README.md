@@ -18,6 +18,7 @@ Este archivo README proporciona una descripción general del curso y el temario 
   - [Módulo 9: Trabajo con Fechas y Tiempos](#módulo-9-trabajo-con-fechas-y-tiempos)
   - [Módulo 10: Manejo de Errores y Excepciones](#módulo-10-manejo-de-errores-y-excepciones-avanzado)
   - [Módulo 11: Fundamentos de Bases de Datos](#módulo-11-fundamentos-de-bases-de-datos)
+  - [Módulo 12: Control de Versiones con Git](#módulo-12-control-de-versiones-con-git)
 - [Recursos Adicionales](#recursos-adicionales)
 
 ## Temario
@@ -35,7 +36,6 @@ El curso está dividido en varios módulos, cada uno cubriendo un aspecto import
 
 - Sintaxis básica, tipos de datos, operadores
 - Entrada y salida de datos, comentarios y convenciones de codificación
-
 
 ### Módulo 2: Estructuras de Control
 
@@ -180,9 +180,50 @@ Este temario proporciona una base sólida para que los principiantes adquieran h
 - Objetivos de la normalización: eliminar redundancias y evitar anomalías de actualización, inserción y eliminación
 - Formas normales: Primera Forma Normal (1FN), Segunda Forma Normal (2FN), Tercera Forma Normal (3FN)
 - Aplicación de reglas de normalización en el diseño de bases de datos
-- Ejemplos prácticos de normalización de bases de datos
+- Ejemplos prácticos de normalización de bases de datos.
 
+### Módulo 12: Control de Versiones con Git
+
+12.1 Introducción a Git
+
+- Qué es Git y por qué es importante en el desarrollo de software
+- Instalación y configuración de Git
+- Conceptos básicos: repositorios, commits, ramas
+
+12.2 Uso básico de Git
+
+- Inicialización de un repositorio Git
+- Añadir y confirmar cambios (commits)
+- Gestión de ramas: creación, cambio, fusión y eliminación
+
+12.3 Colaboración con Git
+
+- Clonación de repositorios remotos
+- Trabajo con repositorios remotos: pull, push, fetch
+- Resolución de conflictos de fusión
 
 ## Recursos Adicionales
 
-Aún no disponibles. Se agregarán próximamente.
+### Documentación Oficial de Python
+
+- [Python Documentation](https://docs.python.org/): La documentación oficial de Python proporciona una guía completa y detallada sobre el lenguaje de programación Python, incluyendo la biblioteca estándar, tutoriales y referencias de módulos.
+
+### Control de Versiones
+
+El control de versiones es una parte fundamental del desarrollo de software que permite a los equipos de desarrollo gestionar cambios en el código fuente a lo largo del tiempo. Git es una de las herramientas más populares para el control de versiones, proporcionando potentes capacidades de seguimiento de cambios y colaboración.
+
+### Tutoriales de Git
+
+- [Documentación oficial de Git](https://git-scm.com/doc): La documentación oficial de Git proporciona una excelente guía para empezar con Git y aprender sus características avanzadas.
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/): Una guía práctica para aprender Git, especialmente diseñada para principiantes.
+- [Atlassian Git Tutorial](https://www.atlassian.com/git): Atlassian ofrece un tutorial completo sobre Git, desde los conceptos básicos hasta las técnicas avanzadas de trabajo en equipo.
+
+### Plataformas de Hospedaje de Repositorios
+
+- GitHub: La plataforma de desarrollo de software más grande del mundo, que ofrece hospedaje de repositorios Git y herramientas de colaboración para equipos de desarrollo.
+- GitLab: Una alternativa a GitHub que proporciona características similares, incluyendo hospedaje de repositorios Git y herramientas de CI/CD (Integración Continua/Despliegue Continuo).
+- Bitbucket: Ofrece hospedaje gratuito y privado de repositorios Git y Mercurial, junto con herramientas de colaboración y seguimiento de problemas.
+
+### Descarga de Visual Studio Code
+
+- [Descarga de Visual Studio Code](https://code.visualstudio.com/Download): Visual Studio Code es un editor de código fuente desarrollado por Microsoft que es gratuito, ligero y altamente personalizable. Está disponible para Windows, macOS y Linux.
