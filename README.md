@@ -1,6 +1,6 @@
 # Dafne-Classes
 
-# ¡Bienvenida a nuestro curso de Python!
+## ¡Bienvenida a nuestro curso de Python!
 
 Este archivo README proporciona una descripción general del curso y el temario detallado.
 
@@ -8,18 +8,52 @@ Este archivo README proporciona una descripción general del curso y el temario 
 
 - [Temario](#temario)
   - [Módulo 1: Introducción a Python](#módulo-1-introducción-a-python)
+    - [1.1 Introducción a la programación y Python](#11-introducción-a-la-programación-y-python)
+    - [1.2 Fundamentos de Python](#12-fundamentos-de-python)
   - [Módulo 2: Estructuras de Control](#módulo-2-estructuras-de-control)
+    - [2.1 Condicionales](#21-condicionales)
+    - [2.2 Bucles](#22-bucles)
   - [Módulo 3: Tipos de Datos Avanzados](#módulo-3-tipos-de-datos-avanzados)
+    - [3.1 Listas y tuplas](#31-listas-y-tuplas)
+    - [3.2 Diccionarios y conjuntos](#32-diccionarios-y-conjuntos)
   - [Módulo 4: Funciones y Modularidad](#módulo-4-funciones-y-modularidad)
+    - [4.1 Definición y llamada de funciones](#41-definición-y-llamada-de-funciones)
+    - [4.2 Modularidad](#42-modularidad)
   - [Módulo 5: Programación Orientada a Objetos (OOP)](#módulo-5-programación-orientada-a-objetos-oop)
+    - [5.1 Introducción a la OOP](#51-introducción-a-la-oop)
+    - [5.2 Herencia y polimorfismo](#52-herencia-y-polimorfismo)
   - [Módulo 6: Manejo de Archivos y Excepciones](#módulo-6-manejo-de-archivos-y-excepciones)
+    - [6.1 Lectura y escritura de archivos](#61-lectura-y-escritura-de-archivos)
+    - [6.2 Excepciones](#62-excepciones)
   - [Módulo 7: Librerías Básicas y Proyectos Prácticos](#módulo-7-librerías-básicas-y-proyectos-prácticos)
+    - [7.1 Librerías estándar de Python](#71-librerías-estándar-de-python)
+    - [7.2 Proyectos Prácticos](#72-proyectos-prácticos)
   - [Módulo 8: Manipulación de Cadenas de Texto](#módulo-8-manipulación-de-cadenas-de-texto)
+    - [8.1 Métodos de cadenas](#81-métodos-de-cadenas)
+    - [8.2 Formateo de cadenas](#82-formateo-de-cadenas)
   - [Módulo 9: Trabajo con Fechas y Tiempos](#módulo-9-trabajo-con-fechas-y-tiempos)
-  - [Módulo 10: Manejo de Errores y Excepciones](#módulo-10-manejo-de-errores-y-excepciones-avanzado)
+    - [9.1 Módulo datetime](#91-módulo-datetime)
+    - [9.2 Formateo de fechas y tiempos](#92-formateo-de-fechas-y-tiempos)
+  - [Módulo 10: Manejo de Errores y Excepciones Avanzado](#módulo-10-manejo-de-errores-y-excepciones-avanzado)
+    - [10.1 Gestión avanzada de excepciones](#101-gestión-avanzada-de-excepciones)
+    - [10.2 Context Managers](#102-context-managers)
   - [Módulo 11: Fundamentos de Bases de Datos](#módulo-11-fundamentos-de-bases-de-datos)
+    - [11.1 Introducción a las bases de datos relacionales](#111-introducción-a-las-bases-de-datos-relacionales)
+    - [11.2 SQLite: Una base de datos ligera para desarrollo y prototipado](#112-sqlite-una-base-de-datos-ligera-para-desarrollo-y-prototipado)
+    - [11.3 Introducción a SQLAlchemy](#113-introducción-a-sqlalchemy)
+    - [11.4 Interacción con la base de datos utilizando SQLAlchemy](#114-interacción-con-la-base-de-datos-utilizando-sqlalchemy)
+    - [11.5 Relaciones entre tablas y claves foráneas](#115-relaciones-entre-tablas-y-claves-foráneas)
+    - [11.6 Normalización de Bases de Datos](#116-normalización-de-bases-de-datos)
   - [Módulo 12: Control de Versiones con Git](#módulo-12-control-de-versiones-con-git)
+    - [12.1 Introducción a Git](#121-introducción-a-git)
+    - [12.2 Uso básico de Git](#122-uso-básico-de-git)
+    - [12.3 Colaboración con Git](#123-colaboración-con-git)
 - [Recursos Adicionales](#recursos-adicionales)
+  - [Documentación Oficial de Python](#documentación-oficial-de-python)
+  - [Control de Versiones](#control-de-versiones)
+  - [Tutoriales de Git](#tutoriales-de-git)
+  - [Plataformas de Hospedaje de Repositorios](#plataformas-de-hospedaje-de-repositorios)
+  - [Descarga de Visual Studio Code](#descarga-de-visual-studio-code)
 
 ## Temario
 
@@ -27,154 +61,150 @@ El curso está dividido en varios módulos, cada uno cubriendo un aspecto import
 
 ### Módulo 1: Introducción a Python
 
-1.1 Introducción a la programación y Python
+#### 1.1 Introducción a la programación y Python
 
 - Qué es la programación y por qué Python es un buen lenguaje para empezar
 - Instalación de Python y entorno de desarrollo (IDE)
 
-1.2 Fundamentos de Python
+#### 1.2 Fundamentos de Python
 
 - Sintaxis básica, tipos de datos, operadores
 - Entrada y salida de datos, comentarios y convenciones de codificación
 
 ### Módulo 2: Estructuras de Control
 
-2.1 Condicionales
+#### 2.1 Condicionales
 
 - If, elif, else, operadores de comparación, operadores lógicos
 
-2.2 Bucles
+#### 2.2 Bucles
 
 - Bucle while, bucle for, uso de break y continue
 
 ### Módulo 3: Tipos de Datos Avanzados
 
-3.1 Listas y tuplas
+#### 3.1 Listas y tuplas
 
 - Creación y manipulación de listas, acceso a elementos, métodos de lista
-  3.2 Diccionarios y conjuntos
+
+#### 3.2 Diccionarios y conjuntos
+
 - Creación y manipulación de diccionarios, acceso a elementos, métodos de diccionario
 
 ### Módulo 4: Funciones y Modularidad
 
-4.1 Definición y llamada de funciones
+#### 4.1 Definición y llamada de funciones
 
 - Parámetros y argumentos, retorno de valores
 - Funciones predefinidas vs. funciones definidas por el usuario
-  4.2 Modularidad
-- Importación de módulos, creación de módulos propios, organización de código en archivos
 
-Este temario proporciona una base sólida para que los principiantes adquieran habilidades fundamentales en Python y puedan seguir avanzando en su aprendizaje.
+#### 4.2 Modularidad
+
+- Importación de módulos, creación de módulos propios, organización de código en archivos
 
 ### Módulo 5: Programación Orientada a Objetos (OOP)
 
-5.1 Introducción a la OOP
+#### 5.1 Introducción a la OOP
 
-* Clases, objetos, atributos, métodos
-* Encapsulación
+- Clases, objetos, atributos, métodos
+- Encapsulación
 
-5.2 Herencia y polimorfismo
+#### 5.2 Herencia y polimorfismo
 
-* Extensión de clases, sobreescritura de métodos
-* Polimorfismo
+- Extensión de clases, sobreescritura de métodos
+- Polimorfismo
 
 ### Módulo 6: Manejo de Archivos y Excepciones
 
-6.1 Lectura y escritura de archivos
+#### 6.1 Lectura y escritura de archivos
 
-* Apertura, lectura y escritura de archivos de texto
-* Gestión de archivos binarios
+- Apertura, lectura y escritura de archivos de texto
+- Gestión de archivos binarios
 
-6.2 Excepciones
+#### 6.2 Excepciones
 
-* Manejo de errores con try-except, bloque finally
-* Lanzamiento de excepciones personalizadas
+- Manejo de errores con try-except, bloque finally
+- Lanzamiento de excepciones personalizadas
 
 ### Módulo 7: Librerías Básicas y Proyectos Prácticos
 
-7.1 Librerías estándar de Python
+#### 7.1 Librerías estándar de Python
 
-* Uso de librerías como os, sys, math, random
+- Uso de librerías como os, sys, math, random
 
-7.2 Proyectos Prácticos
+#### 7.2 Proyectos Prácticos
 
-* Desarrollo de pequeños proyectos para aplicar los conceptos aprendidos en el curso
+- Desarrollo de pequeños proyectos para aplicar los conceptos aprendidos en el curso
 
 ### Módulo 8: Manipulación de Cadenas de Texto
 
-8.1 Métodos de cadenas
+#### 8.1 Métodos de cadenas
 
-* Manipulación de cadenas: concatenación, división, reemplazo
-* Métodos de cadenas: upper(), lower(), strip(), etc.
+- Manipulación de cadenas: concatenación, división, reemplazo
+- Métodos de cadenas: upper(), lower(), strip(), etc.
 
-8.2 Formateo de cadenas
+#### 8.2 Formateo de cadenas
 
-* Uso de placeholders y f-strings para formatear cadenas
-* Formateo avanzado utilizando el método format()
+- Uso de placeholders y f-strings para formatear cadenas
+- Formateo avanzado utilizando el método format()
 
 ### Módulo 9: Trabajo con Fechas y Tiempos
 
-9.1 Módulo datetime
+#### 9.1 Módulo datetime
 
-* Creación y manipulación de objetos de fecha y hora
-* Operaciones con fechas y tiempos: sumas, restas, comparaciones
+- Creación y manipulación de objetos de fecha y hora
+- Operaciones con fechas y tiempos: sumas, restas, comparaciones
 
-9.2 Formateo de fechas y tiempos
+#### 9.2 Formateo de fechas y tiempos
 
-* Conversión entre objetos datetime y strings
-* Especificadores de formato para formatear fechas y tiempos
+- Conversión entre objetos datetime y strings
+- Especificadores de formato para formatear fechas y tiempos
 
 ### Módulo 10: Manejo de Errores y Excepciones Avanzado
 
-10.1 Gestión avanzada de excepciones
+#### 10.1 Gestión avanzada de excepciones
 
 - Uso de bloques try-except-finally
 - Excepciones específicas y excepciones genéricas
 
-10.2 Context Managers
+#### 10.2 Context Managers
 
 - Uso de la declaración "with" para trabajar con recursos externos de forma segura
 - Implementación de context managers personalizados
 
 ### Módulo 11: Fundamentos de Bases de Datos
 
-11.1 Introducción a las bases de datos relacionales
+#### 11.1 Introducción a las bases de datos relacionales
 
 - Conceptos básicos de bases de datos, tablas y consultas SQL
 - Introducción a los sistemas de gestión de bases de datos relacionales (RDBMS)
 - Diferencias entre bases de datos relacionales y NoSQL
 
-11.2 SQLite: Una base de datos ligera para desarrollo y prototipado
+#### 11.2 SQLite: Una base de datos ligera para desarrollo y prototipado
 
 - Instalación y configuración de SQLite
 - Creación de bases de datos y tablas
 - Manipulación de datos: inserción, actualización, eliminación, consultas SQL básicas
 
-11.3 Introducción a SQLAlchemy
+#### 11.3 Introducción a SQLAlchemy
 
 - Ventajas de utilizar un ORM (Mapeo Objeto-Relacional) como SQLAlchemy
 - Instalación y configuración de SQLAlchemy
 - Creación de modelos de datos utilizando clases Python
 
-11.4 Interacción con la base de datos utilizando SQLAlchemy
+#### 11.4 Interacción con la base de datos utilizando SQLAlchemy
 
 - Consultas básicas: filtrado, ordenamiento, agrupamiento
 - Actualización y eliminación de registros
 - Transacciones: inicio, confirmación y reversión de transacciones
 
-11.5 Relaciones entre tablas y claves foráneas
+#### 11.5 Relaciones entre tablas y claves foráneas
 
 - Definición de relaciones uno a uno, uno a muchos y muchos a muchos
 - Uso de claves foráneas para establecer relaciones entre tablas
 - Consultas que involucran múltiples tablas y relaciones
 
-11.6 Gestión de la base de datos mediante scripts Python
-
-- Automatización de tareas de administración de bases de datos utilizando scripts Python
-- Creación de scripts para realizar copias de seguridad, migraciones de datos, etc.
-- Manejo de excepciones y errores en scripts de gestión de bases de datos
-
-11.7 Normalización de Bases de Datos
+#### 11.6 Normalización de Bases de Datos
 
 - Introducción a la normalización de bases de datos
 - Objetivos de la normalización: eliminar redundancias y evitar anomalías de actualización, inserción y eliminación
@@ -184,19 +214,19 @@ Este temario proporciona una base sólida para que los principiantes adquieran h
 
 ### Módulo 12: Control de Versiones con Git
 
-12.1 Introducción a Git
+#### 12.1 Introducción a Git
 
 - Qué es Git y por qué es importante en el desarrollo de software
 - Instalación y configuración de Git
 - Conceptos básicos: repositorios, commits, ramas
 
-12.2 Uso básico de Git
+#### 12.2 Uso básico de Git
 
 - Inicialización de un repositorio Git
 - Añadir y confirmar cambios (commits)
 - Gestión de ramas: creación, cambio, fusión y eliminación
 
-12.3 Colaboración con Git
+#### 12.3 Colaboración con Git
 
 - Clonación de repositorios remotos
 - Trabajo con repositorios remotos: pull, push, fetch
