@@ -2,30 +2,38 @@
 """
 Numericos
     - int(20)
+        - numero = 0
     - float(20.5)
+        - flotante = 0.5
     - complex(1j)
-
+        - complejo = 1j
 boleanos
     - bool(True)
+        boleano = False
 
 texto
     - str("Hello World")
+        - texto = "xd"
 
 mapeo
     - dict(name="John", age=36)
-        -{"name":"John", "age":36}
+        - {"name":"John", "age":36}
 
 secuencias
     - list(("apple", "banana", "cherry"))
         - ["apple", "banana", "cherry"]
+
     - tuple(("apple", "banana", "cherry"))
         - ("apple", "banana", "cherry")
+
     - range(6)
 
 conjuntos
     - set(("apple", "banana", "cherry"))
         - {"apple", "banana", "cherry"}
+
     - frozenset({"apple", "banana", "cherry"})
+
 Bytes
     - bytes
     - bytearray
